@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="shortcut icon" href="Imagenes/boxeo.png">
+    <title>Contactanos</title>
+</head>
+<body>
+    <!-- aca iria el header de nuevo -->
+    <!-- aca pongo un formulario -->
+    <main>
+        <section>
+            <h1> Contactanos </h1>
+            <div class="form">
+                <label for="name" class="nombre">Nombre y Apellido </label>
+                <input type="string" class="nombre" id="name1" placeholder="">
+                <br>
+                <label for="correo" class="correo">Email </label>
+                <input type="email" class="correo" id="email" placeholder="name@example.com">
+            </div>
+            
+            <div>
+                <label for="tel"> Telefono </label> 
+                <input type="number"><br>
+                <label for="sede"> Sede </label>
+                <select class="select" aria-label="Default select example">
+                    <option selected> Elige tu sede</option>
+                    <option value="1">Martinez</option>
+                    <option value="2">Palermo</option>
+                    <option value="3">San Telmo</option>
+                    <option value="4">Tigre</option>
+                </select>
+            <br>         
+                <div class="consulta">
+                    <label for="consulta" class="consulta">Envianos tu consulta</label>
+                    <textarea class="form-control" id="consult" rows="3"></textarea>
+                    <br>
+                    <label for="submit" class="submit"></label>
+                    <input type="submit" value="Enviar datos">
+                    <label for="reset" class="reset"></label>
+                    <input type="reset" value="Borrar datos">
+                </div>    
+        </section>
+    </main>
+    <!-- aca iria el footer de nuevo -->
+</body>
+</html>
