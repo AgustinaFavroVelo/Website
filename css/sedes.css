@@ -1,30 +1,39 @@
 
-.cuadro{
-    display: flex;
-    width: 100%;
-    margin: 10px;
-    padding:5px ;
-    background-color: black;
-    color: whitesmoke;
+.header-container h1 {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700; 
+    font-size: 28px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
 .cuadrito {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    padding: 5px;
     background-color: black;
     color: whitesmoke;
-    border: 2px;
-    border-color: aliceblue;
-}
-.boximg{
-    width: 60% ;
-    height: auto;
-}
+    border: 2px solid aliceblue;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+    }
 
-/* CSS para agrandar imagenes */
-.boximg:hover {
-    transform: scale(1.2); /* aumento tamaño */
-    transition: transform 0.3s ease; /* transition */
-  }
+
+.boximg {
+    max-width: 100%;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.motivational-quote {
+    font-size: 30px;
+    font-style: italic;
+    color: #000000;
+    text-align: center;
+   
+}
