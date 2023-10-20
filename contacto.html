@@ -13,19 +13,20 @@
     <main>
         <section>
             <h1> Contactanos </h1>
-            <div class="form">
-                <label for="name" class="nombre">Nombre y Apellido </label>
-                <input type="string" class="nombre" id="name1" placeholder="">
+            <div class="form" id="form">
+                <input type="string" class="nombre" id="name" placeholder="">
+                <label for="name" class="nombre"> Nombre y Apellido </label>
                 <br>
-                <label for="correo" class="correo">Email </label>
                 <input type="email" class="correo" id="email" placeholder="name@example.com">
+                <label for="correo" class="correo"> Email </label>
             </div>
             
             <div>
+                <input type="number">
                 <label for="tel"> Telefono </label> 
-                <input type="number"><br>
+                <br>
                 <label for="sede"> Sede </label>
-                <select class="select" aria-label="Default select example">
+                <select class="select" aria-label="Default select example" >
                     <option selected> Elige tu sede</option>
                     <option value="1">Martinez</option>
                     <option value="2">Palermo</option>
@@ -34,11 +35,13 @@
                 </select>
             <br>         
                 <div class="consulta">
-                    <label for="consulta" class="consulta">Envianos tu consulta</label>
+                    <label for="consulta" class="consulta" id=" consulta">Envianos tu consulta</label>
                     <textarea class="form-control" id="consult" rows="3"></textarea>
                     <br>
                     <label for="submit" class="submit"></label>
-                    <input type="submit" value="Enviar datos">
+                    <button type="submit"> Enviar datos </button> 
+                    <!-- para validad -->
+                    <p class="warnings" id="warnings"></p>
                     <label for="reset" class="reset"></label>
                     <input type="reset" value="Borrar datos">
                 </div>    
@@ -46,4 +49,5 @@
     </main>
     <!-- aca iria el footer de nuevo -->
 </body>
+<script src="js/validacion.js"> </script>
 </html>
