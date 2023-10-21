@@ -13,32 +13,6 @@ html, body {
     padding: 0;
 }
 
-#idheader {
-    background-color: #5c5858d3; 
-    color: #fff; 
-    padding: 5%;
-  }
-    
-#nav-bar {
-    display: flex;
-    background-color: none;
-    justify-content:space-around;
-    align-items: center;
-}
-
-#idheader.dark-mode-button {
-    display: flex;
-    position: fixed;
-    background-color: #333;
-    position: fixed; 
-    color: #fff;
-    border-radius: 25px;
-    padding: 10px 20px;
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
-}
-
 main {
     padding: 20px;
 }
@@ -52,26 +26,6 @@ main {
     padding: 20px;
 }
 
-.redsoc {
-    width: 20 em;
-    height: 20 em;
-    background-color: none;
-}
-
-#idfooter {
-    background-color:  #5c5858d3;
-    color: white;
-    text-align: center;
-    font-size: 12px;
-    padding: 15px;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    /*padding: 20px;*/
-    height: 75 em;
-    margin-top: 0; /*10px;*/
-  }
 
 /* modo */
 /* body {

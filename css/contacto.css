@@ -1,7 +1,13 @@
-.warnings {
+/* .warnings {
     width: 200px;
     text-align: center;
     margin: auto;
     color: #B06AB3;
     padding-top: 20px;
+} */
+
+.error {
+    color: red;
+    font-size: 14px; /* Adjust the font size as needed */
+    margin-top: 5px; /* Add spacing between the error message and the form elements */
 }
