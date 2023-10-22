@@ -1,13 +1,17 @@
-/* .warnings {
+.warnings {
     width: 200px;
     text-align: center;
     margin: auto;
-    color: #B06AB3;
+    color: rgb(187, 61, 61);
+    font-size: 14px; 
+    margin-top: 5px; 
     padding-top: 20px;
-} */
+} 
 
-.error {
-    color: red;
-    font-size: 14px; /* Adjust the font size as needed */
-    margin-top: 5px; /* Add spacing between the error message and the form elements */
+input:invalid{
+    border: 1px dashed rgb(187, 61, 61);
+}
+
+input:valid{
+    border: 1px solid;
 }

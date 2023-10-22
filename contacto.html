@@ -26,39 +26,37 @@
     <main>
         <section>
             <h1> Contactanos </h1>
-            <form id="form" onsubmit="return validateForm()">
-                <div>
-                    <input type="string" class="nombre" id="name" placeholder=""> <!--  nombre y apellido -->
-                    <label for="name" class="nombre"> Nombre y Apellido </label>
-                    <br>
-                    <input type="email" class="correo" id="email" placeholder="name@example.com">
-                    <label for="correo" class="correo"> Email </label> <!-- correo -->
-                    <br>
-                    <input type="number">
-                    <label for="tel"> Telefono </label>  <!-- telefono -->
-                    <br>
-                    <label for="sede"> Sede </label>
-                    <select class="select" aria-label="Default select example" >  <!-- sede -->
-                        <option selected> Elige tu sede</option>
-                        <option value="1">Martinez</option>
-                        <option value="2">Palermo</option>
-                        <option value="3">San Telmo</option>
-                        <option value="4">Tigre</option>
-                    </select>
-                </div>
+            <form id="form" >
+                <!-- intenté tmb agregando onsubmit="return validateForm()" en el tag form de arriba-->
+                <input type="string" class="nombre" id="name" placeholder="" minlength="6" maxlength="22"> 
+                <label for="name" class="nombre"> Nombre y Apellido </label> <!--  nombre y apellido -->
+                <br>
+                <input type="email" class="correo" id="email" placeholder="name@example.com">
+                <label for="correo" class="correo"> Email </label> <!-- correo -->
+                <br>
+                <input type="number">
+                <label for="tel"> Telefono </label>  <!-- telefono -->
+                <br>
+                <label for="sede"> Sede </label>
+                <select class="select" aria-label="Default select example" >  <!-- sede -->
+                    <option selected> Elige tu sede</option>
+                    <option value="1">Martinez</option>
+                    <option value="2">Palermo</option>
+                    <option value="3">San Telmo</option>
+                    <option value="4">Tigre</option>
+                </select>         
                 <br>         
-                <div class="consulta"> <!-- consulta aparte -->
-                    <label for="consulta" class="consulta" id=" consulta">Envianos tu consulta</label>
-                    <textarea class="form-control" id="consult" rows="3"></textarea>
-                </div>
-               <div>  <!-- y aca los dos botones -->
-                    <label for="submit" class="submit"></label>
-                    <button type="submit"> Enviar datos </button> 
-                    <label for="reset" class="reset"></label>
-                    <input type="reset" value="Borrar datos">
-                    <!-- para validad -->
-                    <p class="warnings" id="warnings"></p>
-               </div>
+                <!-- consulta  -->
+                <label for="consulta" class="consulta" id=" consulta">Envianos tu consulta</label>
+                <textarea class="form-control" id="consult" rows="3"></textarea>
+                <!-- y aca los dos botones -->
+                <label for="submit" class="submit"></label>
+                <button type="submit" onclick="validateForm()"> Enviar datos </button> 
+                <label for="reset" class="reset"></label>
+                <input type="reset" value="Borrar datos">
+                <!-- para validad -->
+                <p class="warnings" id="warnings"> </p>
+               
             </form>    
         </section>
     </main>

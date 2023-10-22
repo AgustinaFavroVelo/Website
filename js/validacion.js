@@ -42,7 +42,8 @@ function validateForm() {
 
     if (name === "" || email === "" || tel === "" || sede === "Elige tu sede" || consult === "") {
         warnings.innerHTML = "Por favor, complete todos los campos";
-        return false;
+        return false; //esto para que no se envio el formulario si no se rellenan todos los campos
     }
 }  
+
 
