@@ -6,74 +6,87 @@
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/header-footer.css">
     <link rel="shortcut icon" href="Imagenes/boxeo.png">
+   
     <title>Contactanos</title>
 </head>
 <body>
-    <!-- aca iria el header de nuevo -->
     <header id="idheader">
         <nav id="nav-bar">
-            <div> Be Strong </div>
-            <div> <a id = "about-link" class="navbar-link" href="nosotros.html">Nosotros </a></div>
-            <div> <a id = "home-link" class="navbar-brand" href="Index.html">Home </a> </div>
-            <div> <a id = "sedes-link" class="navbar-link" href="sedes.html">Sedes </a></div>
-            <div> <a id = "contact-link" class="navbar-link" href="contacto.html">Contacto </a></div>
+            <div> <span style="font-family: 'Georgia', serif; font-size: 36px; color: #000000; text-decoration: underline;">Be Strong</span> </div>
+            <div> <a id="about-link" class="navbar-link" href="nosotros.html">Nosotros </a></div>
+            <div> <a id="home-link" class="navbar-brand" href="Index.html">Home </a> </div>
+            <div> <a id="sedes-link" class="navbar-link" href="sedes.html">Sedes </a></div>
+            <div> <a id="contact-link" class="navbar-link" href="contacto.html">Contacto </a></div>
             <div> <button id="dark-mode-button"> Modo </button> </div>
         </nav> 
     </header>
-    <!-- header termina -->
     <br>
-    <!-- aca pongo un formulario -->
     <main>
         <section>
             <h1> Contactanos </h1>
+<<<<<<< HEAD
             <form id="form" >
                 <input type="string" class="nombre" id="name" placeholder="" minlength="6" maxlength="22"> 
                 <label for="name" class="nombre"> Nombre y Apellido </label> <!--  nombre y apellido -->
+=======
+            <form id="form" onsubmit="return validateForm()">
+                
+                <label for="name" class="nombre"> Nombre y Apellido </label>
+                <input type="string" class="nombre" id="name" placeholder=""> 
+>>>>>>> c5a52ea5dd6c0ab6b5bb73050abc3debb4739577
                 <br>
+                <label for="correo" class="correo"> Email </label>
                 <input type="email" class="correo" id="email" placeholder="name@example.com">
-                <label for="correo" class="correo"> Email </label> <!-- correo -->
                 <br>
-                <input type="number">
-                <label for="tel"> Telefono </label>  <!-- telefono -->
+                <label for="tel"> Telefono </label> 
+                <input type="tel" class="telefono" id="tel" placeholder="123-456-7890"> 
                 <br>
                 <label for="sede"> Sede </label>
-                <select class="select" aria-label="Default select example" >  <!-- sede -->
+                <select class="select" aria-label="Default select example" > 
                     <option selected> Elige tu sede</option>
                     <option value="1">Martinez</option>
                     <option value="2">Palermo</option>
                     <option value="3">San Telmo</option>
                     <option value="4">Tigre</option>
-                </select>         
+                </select>
+                
                 <br>         
-                <!-- consulta  -->
-                <label for="consulta" class="consulta" id=" consulta">Envianos tu consulta</label>
+               
+                <label for="consulta" class="consulta" id="consulta">Envianos tu consulta</label>
                 <textarea class="form-control" id="consult" rows="3"></textarea>
-                <!-- y aca los dos botones -->
+                <br>
                 <label for="submit" class="submit"></label>
+<<<<<<< HEAD
                 <button type="submit"> Enviar datos </button> 
                 <label for="reset" class="reset"></label>
                 <input type="reset" value="Borrar datos">
                 <!-- para validad -->
                 <p class="warnings" id="warnings"> </p>
+=======
+               
+
+                <button type="submit" onclick="validateForm()"> Enviar datos </button> 
+                <!-- para validad -->
+                <p class="warnings" id="warnings"></p>
+                <label for="reset" class="reset"></label>
+                <input type="reset" value="Borrar datos">
+
+>>>>>>> c5a52ea5dd6c0ab6b5bb73050abc3debb4739577
             </form>    
         </section>
     </main>
-    <!-- footer empieza -->
     <footer id="idfooter"> 
-        </a>
         <a class="redsoc" href="https://www.facebook.com" target="blank">
             <img class="redsoc"  src="img/001-facebook.png" alt="facebook">
         </a>
         <a class="redsoc" href="https://www.twitter.com" target="blank">
             <img class="redsoc"  src="img/003-twitter.png" alt="twitter">
+        </a>
         <a src=""  href="https://www.instagram.com/?hl=es" target="blank">
             <img class="redsoc"  src="img/002-instagram.png" alt="instagram">
         </a>
     </footer>
-    <!-- footer termina -->
-
     <!-- aca va la validacion -link a js -->
     <script src="js/validacion.js"> </script>
-    
 </body>
 </html>
