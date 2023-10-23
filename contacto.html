@@ -27,7 +27,6 @@
         <section>
             <h1> Contactanos </h1>
             <form id="form" >
-                <!-- intenté tmb agregando onsubmit="return validateForm()" en el tag form de arriba-->
                 <input type="string" class="nombre" id="name" placeholder="" minlength="6" maxlength="22"> 
                 <label for="name" class="nombre"> Nombre y Apellido </label> <!--  nombre y apellido -->
                 <br>
@@ -51,12 +50,11 @@
                 <textarea class="form-control" id="consult" rows="3"></textarea>
                 <!-- y aca los dos botones -->
                 <label for="submit" class="submit"></label>
-                <button type="submit" onclick="validateForm()"> Enviar datos </button> 
+                <button type="submit"> Enviar datos </button> 
                 <label for="reset" class="reset"></label>
                 <input type="reset" value="Borrar datos">
                 <!-- para validad -->
                 <p class="warnings" id="warnings"> </p>
-               
             </form>    
         </section>
     </main>
