@@ -24,38 +24,29 @@
     <main>
         <section>
             <h1> Contactanos </h1>
-<<<<<<< HEAD
             <form id="form" >
                 <input type="string" class="nombre" id="name" placeholder="" minlength="6" maxlength="22"> 
-                <label for="name" class="nombre"> Nombre y Apellido </label> <!--  nombre y apellido -->
-=======
-            <form id="form" onsubmit="return validateForm()">
-                
-                <label for="name" class="nombre"> Nombre y Apellido </label>
-                <input type="string" class="nombre" id="name" placeholder=""> 
->>>>>>> c5a52ea5dd6c0ab6b5bb73050abc3debb4739577
+                <label for="name" class="nombre" id="name" placeholder=""> Nombre y Apellido </label> <!--  nombre y apellido -->
                 <br>
                 <label for="correo" class="correo"> Email </label>
-                <input type="email" class="correo" id="email" placeholder="name@example.com">
+                <input type="email" class="correo" id="email" placeholder="name@example.com">  <!--  email  -->
                 <br>
                 <label for="tel"> Telefono </label> 
-                <input type="tel" class="telefono" id="tel" placeholder="123-456-7890"> 
+                <input type="tel" class="telefono" id="tel" placeholder="123-456-7890"> <!--  tel  -->
                 <br>
                 <label for="sede"> Sede </label>
-                <select class="select" aria-label="Default select example" > 
+                <select class="select" aria-label="Default select example" >  <!-- sede  -->
                     <option selected> Elige tu sede</option>
                     <option value="1">Martinez</option>
                     <option value="2">Palermo</option>
                     <option value="3">San Telmo</option>
                     <option value="4">Tigre</option>
-                </select>
-                
+                </select>   
                 <br>         
-               
-                <label for="consulta" class="consulta" id="consulta">Envianos tu consulta</label>
+                <label for="consulta" class="consulta" id="consulta">Envianos tu consulta</label> <!-- consulta -->
                 <textarea class="form-control" id="consult" rows="3"></textarea>
                 <br>
-                <label for="submit" class="submit"></label>
+                <label for="submit" class="submit"></label> <!--  botones  -->
                 <button type="submit"> Enviar datos </button> 
                 <label for="reset" class="reset"></label>
                 <input type="reset" value="Borrar datos">
@@ -78,5 +69,6 @@
     </footer>
     <!-- aca va la validacion -link a js -->
     <script src="js/validacion.js"> </script>
+    <script src="js/modo.js"></script>
 </body>
 </html>
