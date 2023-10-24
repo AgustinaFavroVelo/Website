@@ -1,29 +1,29 @@
 #idheader {
-    background-color: #afeeee; /* Cambia el color de fondo según tus preferencias */
-    color: #fff;
-    padding: 20px; /* Añade espacio alrededor del contenido */
-    text-align: center; /* Centra el texto */
+    background-color:rgb(0, 0, 0);
+    color:#f7f1f1;
+    padding: 20px; 
+    text-align: center; 
 }
 
 #nav-bar {
-    background-color: #e0ffff;
+    background-color: rgb(56, 54, 54);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0; /* Espacio entre los elementos del menú */
+    padding: 10px 0; 
 }
 
 #nav-bar a {
-    color: #000000;
+    color: #f5f2f2;
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
-    font-size: 18px; /* Tamaño de fuente más grande */
-    font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
+    font-size: 18px; 
+    font-family: 'Arial', sans-serif; 
 }
 
 #dark-mode-button {
-    background-color: #fcf7f7;
+    background-color: #000000;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -36,18 +36,18 @@
     background-color: #7a7777;
 }
 #idfooter {
-    background-color:  #000000;
-    color: white;
+    background-color: transparent;
+    color: transparent;
     text-align: center;
     padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
-
 .redsoc {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Ajusté el espacio entre los iconos */
+    text-align: center;
 }
-
 .redsoc img {
     width: 30px;
     height: 30px;

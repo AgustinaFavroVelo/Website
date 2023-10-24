@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="Imagenes/boxeo.png">
    
     <title>Contactanos</title>
@@ -12,63 +13,80 @@
 <body>
     <header id="idheader">
         <nav id="nav-bar">
-            <div> <span style="font-family: 'Georgia', serif; font-size: 36px; color: #000000; text-decoration: underline;">Be Strong</span> </div>
-            <div> <a id="about-link" class="navbar-link" href="nosotros.html">Nosotros </a></div>
-            <div> <a id="home-link" class="navbar-brand" href="Index.html">Home </a> </div>
-            <div> <a id="sedes-link" class="navbar-link" href="sedes.html">Sedes </a></div>
-            <div> <a id="contact-link" class="navbar-link" href="contacto.html">Contacto </a></div>
-            <div> <button id="dark-mode-button"> Modo </button> </div>
+            <div>
+                <span style="font-family: 'Georgia', serif; font-size: 36px; color: #fffcfc; text-decoration: underline;">Be Strong</span>
+            </div>
+            <div>
+                <a id="about-link" class="navbar-link" href="nosotros.html">Nosotros</a>
+            </div>
+            <div>
+                <a id="home-link" class="navbar-brand" href="Index.html">Home</a>
+            </div>
+            <div>
+                <a id="sedes-link" class="navbar-link" href="sedes.html">Sedes</a>
+            </div>
+            <div>
+                <a id="contact-link" class="navbar-link" href="contacto.html">Contacto</a>
+            </div>
+            <div>
+                <button id="dark-mode-button">Modo</button>
+            </div>
         </nav> 
     </header>
     <br>
     <main>
         <section>
-            <h1> Contactanos </h1>
-            <form id="form" >
-                <input type="string" class="nombre" id="name" placeholder="" minlength="6" maxlength="22"> 
-                <label for="name" class="nombre" id="name" placeholder=""> Nombre y Apellido </label> <!--  nombre y apellido -->
-                <br>
-                <label for="correo" class="correo"> Email </label>
-                <input type="email" class="correo" id="email" placeholder="name@example.com">  <!--  email  -->
-                <br>
-                <label for="tel"> Telefono </label> 
-                <input type="tel" class="telefono" id="tel" placeholder="123-456-7890"> <!--  tel  -->
-                <br>
-                <label for="sede"> Sede </label>
-                <select class="select" aria-label="Default select example" >  <!-- sede  -->
-                    <option selected> Elige tu sede</option>
+            <h1>Contactanos</h1>
+            <form id="form">
+                <div class="form-group">
+                <label for="name" class="nombre">Nombre y Apellido</label>
+                <input type="text" class="nombre" id="name" placeholder="Nombre y Apellido" minlength="6" maxlength="22">
+                </div>    
+            <div class="form-group">
+                <label for="correo" class="correo">Email</label>
+                <input type="email" class="correo" id="email" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="tel" class="telefono">Telefono</label>
+                <input type="tel" class="telefono" id="tel" placeholder="123-456-7890">
+            </div>
+            <div class="form-group">
+                <label for="sede" class="select">Sede</label>
+                <select class="select" aria-label="Default select example">
+                    <option selected>Elige tu sede</option>
                     <option value="1">Martinez</option>
                     <option value="2">Palermo</option>
                     <option value="3">San Telmo</option>
                     <option value="4">Tigre</option>
-                </select>   
-                <br>         
-                <label for="consulta" class="consulta" id="consulta">Envianos tu consulta</label> <!-- consulta -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="consult" class="consulta-label">Envianos tu consulta!</label>
+            <div class="form-group">
                 <textarea class="form-control" id="consult" rows="3"></textarea>
-                <br>
-                <label for="submit" class="submit"></label> <!--  botones  -->
-                <button type="submit"> Enviar datos </button> 
-                <label for="reset" class="reset"></label>
+            </div>  
+            <div class="form-group">
+                <button type="submit">Enviar datos</button>
                 <input type="reset" value="Borrar datos">
-                <!-- para validad -->
-                <p class="warnings" id="warnings"> </p>
+            </div>
+        </form>
+        <div class="motivational-quote"><p>Comenza con nosotros el viaje hacia tu mejor versión!</p>
+        </div>
 
-            </form>    
         </section>
     </main>
     <footer id="idfooter"> 
         <a class="redsoc" href="https://www.facebook.com" target="blank">
-            <img class="redsoc"  src="img/001-facebook.png" alt="facebook">
+            <img class="redsoc" src="img/001-facebook.png" alt="facebook">
         </a>
         <a class="redsoc" href="https://www.twitter.com" target="blank">
-            <img class="redsoc"  src="img/003-twitter.png" alt="twitter">
+            <img class="redsoc" src="img/003-twitter.png" alt="twitter">
         </a>
-        <a src=""  href="https://www.instagram.com/?hl=es" target="blank">
-            <img class="redsoc"  src="img/002-instagram.png" alt="instagram">
+        <a src="" href="https://www.instagram.com/?hl=es" target="blank">
+            <img class="redsoc" src="img/002-instagram.png" alt="instagram">
         </a>
     </footer>
-    <!-- aca va la validacion -link a js -->
-    <script src="js/validacion.js"> </script>
+    <script src="js/validacion.js"></script>
     <script src="js/modo.js"></script>
 </body>
 </html>
