@@ -39,32 +39,37 @@
             <h1>Contactanos</h1>
             <form id="form">
                 <div class="form-group">
-                <label for="name" class="nombre">Nombre y Apellido</label>
-                <input type="text" class="nombre" id="name" placeholder="Nombre y Apellido" minlength="6" maxlength="22">
+                    <label for="name" class="nombre">Nombre y Apellido</label>
+                    <input type="text" class="nombre" id="name" placeholder="Nombre y Apellido" style="width: 35%; height: 20px;">
                 </div>    
-            <div class="form-group">
-                <label for="correo" class="correo">Email</label>
-                <input type="email" class="correo" id="email" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-                <label for="tel" class="telefono">Telefono</label>
-                <input type="tel" class="telefono" id="tel" placeholder="123-456-7890">
-            </div>
-            <div class="form-group">
-                <label for="sede" class="select">Sede</label>
-                <select class="select" aria-label="Default select example">
-                    <option selected>Elige tu sede</option>
-                    <option value="1">Martinez</option>
-                    <option value="2">Palermo</option>
-                    <option value="3">San Telmo</option>
-                    <option value="4">Tigre</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="consult" class="consulta-label">Envianos tu consulta!</label>
-            <div class="form-group">
-                <textarea class="form-control" id="consult" rows="3"></textarea>
-            </div>  
+                
+                <div class="form-group">
+                    <label for="correo" class="correo">Email</label>
+                    <input type="email" class="correo" id="email" placeholder="name@example.com" style="width: 35%; height: 20px;">
+                </div>
+                
+                <div class="form-group">
+                    <label for="tel" class="telefono">Telefono</label>
+                    <input type="tel" class="telefono" id="tel" placeholder="123-456-7890" style="width: 30%; height: 20px;">
+                </div>
+                
+                <div class="form-group">
+                    <label for="sede" class="select">Sede</label>
+                    <select class="select" aria-label="Default select example" style="width: 30%; height: 30px;">
+                        <option selected>Elige tu sede</option>
+                        <option value="1">Martinez</option>
+                        <option value="2">Palermo</option>
+                        <option value="3">San Telmo</option>
+                        <option value="4">Tigre</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="consult" class="consulta-label">Envianos tu consulta!</label>
+                    <div class="form-group">
+                        <textarea class="form-control" id="consult" style="width: 60%; height: 50px;"></textarea>
+                    </div>
+                </div>
             <div class="form-group">
                 <button type="submit">Enviar datos</button>
                 <input type="reset" value="Borrar datos">
