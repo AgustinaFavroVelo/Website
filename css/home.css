@@ -9,6 +9,8 @@
 }
 
 html, body {
+    background-color: #d5e7f3; 
+    color: #1e0d5e; 
     margin: 0;
     padding: 0;
 }

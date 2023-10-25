@@ -1,6 +1,6 @@
 body {
-    background-color: #000; 
-    color: #fff; 
+    background-color: #d5e7f3; 
+    color: #1e0d5e;  
     margin: 0;
     padding: 40px;
     display: flex;
@@ -25,7 +25,8 @@ section {
     width: 500px;
     margin: 0 auto;
     text-align: center;
-
+    border-radius: 20px;
+    padding: 20px;
 }
 form label {
     margin-bottom: 50px; 

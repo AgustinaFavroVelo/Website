@@ -36,8 +36,8 @@
     background-color: #7a7777;
 }
 #idfooter {
-    background-color: transparent;
-    color: transparent;
+    background-color:  rgb(56, 54, 54);
+    color: #fff;
     text-align: center;
     padding: 15px;
     text-align: center;
@@ -61,5 +61,14 @@ body {
   
 .modo-oscuro {
     background-color: #222222 ;
-    color: aliceblue
+    color: aliceblue;
+  }
+
+.white {
+    background-color: skyblue ;
+    color: rgb(6, 12, 87);
+}
+.dark{
+    background-color: #222222 ;
+    color: aliceblue;
   }

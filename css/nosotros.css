@@ -1,3 +1,8 @@
+body {
+  background-color: #d5e7f3; 
+  color: #1e0d5e;  
+}
+
 .comentario-card {
     background-color: #f5f5f5;
     padding: 10px;
@@ -13,6 +18,7 @@
   
   .comentario-text {
     font-size: 16px;
+    color: #1e0d5e; 
   }
   
   .comentario-timestamp {
