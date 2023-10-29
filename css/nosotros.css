@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap');
+
 body {
-  background-color: #882020; 
-  color:#fff9f9;  
+  background-color: #882020;
+  color: #fff9f9;
 }
 
 .tittle {
-  font-family: 'Open Sans', sans-serif; 
-  font-weight: 700; 
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 700;
   font-size: 28px;
   text-align: center;
   padding: 3% 10%;
@@ -13,12 +15,12 @@ body {
 
 .nos {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 700; 
-  font-size: 16px; 
+  font-weight: 700;
+  font-size: 16px;
   text-align: center;
-  padding:10px 5px
-  
+  padding: 10px 5px
 }
+
 .profesores {
   display: flex;
   flex-wrap: wrap;
@@ -28,63 +30,68 @@ body {
 
 .welcome {
   background-color: none;
-  
+
 }
+
 .profe {
-flex:0 0 calc(33.33%-10px);
-margin-bottom: 20px;
-padding: 10px;
-box-sizing: border-box;
-border-radius: 1px  #ddd;
-text-align: center;
+  flex: 0 0 calc(33.33%-10px);
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 1px #ddd;
+  text-align: center;
 }
 
 .profe img {
-max-width: 100%;
-height: 300px; ; 
+  max-width: 100%;
+  height: 300px;
+  ;
 }
 
 .img {
-width: 50%;
-box-shadow: 6px 6px 25px whitesmoke;
-transition: all 2s linear;
+  width: 50%;
+  box-shadow: 6px 6px 25px whitesmoke;
+  transition: all 2s linear;
 
 }
+
 img:hover {
   width: 70%;
   border-radius: 10%;
-  filter:brightness(100%);
+  filter: brightness(100%);
   box-shadow: -12px --12px 12px gray;
   filter: sepia(40%);
 }
+
 .comentario-card {
-    background-color: #c77474;
-    padding: 10px;
-    border: 1px solid #ddd;
-    margin: 10px;
-    border-radius: 5px;
+  background-color: #c77474;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  border-radius: 5px;
 }
-  
+
 .comentador-name {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
 }
-  
+
 .comentario-text {
-    font-size: 16px;
-    color: #fff9f9;
-    text-align: center;  
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 16px;
+  color: #fff9f9;
+  text-align: center;
 }
-  
+
 .comentario-timestamp {
-    color: #888;
+  color: #888;
 }
 
 .comentador-picture {
   border-radius: 20px;
   margin: 0 auto;
-  display: block;;
+  display: block;
+  ;
 }
-
-  

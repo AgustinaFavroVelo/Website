@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap');
+
 body {
     background-color: #882020; 
     color:#fff9f9;  
@@ -15,7 +17,12 @@ body {
     padding: 20px; 
     text-align: center; 
 }
-
+.contacto{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 200%;
+    font-weight: bolder;
+    font-style: italic;
+}
 section {
     text-align: center;
 }
@@ -44,8 +51,7 @@ form label {
     width: 100%;
 }
 
-.consulta-label {
-    font-family: 'Georgia', serif; 
+.consulta-label { 
     font-size: 18px; 
     color: #fff9f9; 
     display: block; 
@@ -59,12 +65,13 @@ form label {
 }
 
 .motivational-quote {
-        font-family: 'Georgia', serif; 
+    font-family: 'Frank Ruhl Libre', serif; 
         font-size: 20px; 
         color: #fff; 
         text-align: center; 
         margin-top: 70px;
         margin-bottom: 90px;
+        font-style: oblique;
 }
 
 button[type="submit"]:hover, input[type="reset"]:hover {
