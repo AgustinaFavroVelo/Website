@@ -31,11 +31,8 @@ h1 {
 .foto_inicial {
     display: flex;
     flex-wrap: wrap;
-    width: fit-content;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin:auto;
+    width: 100%;
+    margin: 0 0 10px 0;
 }
 
 .video {

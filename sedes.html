@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = yes, width = device-width">
     <link rel="stylesheet" href="css/sedes.css">
     <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
@@ -13,18 +13,22 @@
     <main>
         <section>
                 <!-- aca iria el header de nuevo -->
-            <header id="idheader">
-            <nav id="nav-bar">
-                <div>
+        <header id="idheader">
+            <nav class = "cajaNav" id="cajaNav">
+                <div class="titNav">
                     <span style="font-family: 'Georgia', serif; font-size: 36px; color: #fffcfc; text-decoration: underline;">Be Strong</span>
+                    <div> <button id="dark-mode-button"> Modo </button> </div>
+                    <div class="toggle" onclick="alternar('menu')"> Abrir </div>
                 </div>
-            <div> <a id = "about-link" class="navbar-link" href="nosotros.html">Nosotros </a></div>
-            <div> <a id = "home-link" class="navbar-brand" href="Index.html">Home </a> </div>
-            <div> <a id = "sedes-link" class="navbar-link" href="sedes.html">Sedes </a></div>
-            <div> <a id = "contact-link" class="navbar-link" href="contacto.html">Contacto </a></div>
-            <div> <button id="dark-mode-button"> Modo </button> </div>
-        </nav> 
-    </header>
+                <ul class="nav-bar cerrado" id="menu">
+                    <li> <a id = "about-link" class="navbar-link" href="nosotros.html">Nosotros </a></li>
+                    <li> <a id = "home-link" class="navbar-brand" href="Index.html">Home </a> </li>
+                    <li> <a id = "sedes-link" class="navbar-link" href="sedes.html">Sedes </a></li>
+                    <li> <a id = "contact-link" class="navbar-link" href="contacto.html">Contacto </a></li>
+                </ul>
+            </nav> 
+        </header>
+
             <div class="header-container">
                 <h1> Vení a conocer nuestras sedes! </h1>
             </div>
@@ -98,5 +102,6 @@
     </footer>
     <!-- footer termina -->
     <script src="js/modo.js"></script>
+    <script src="js/alternar.js"></script>
 </body>
 </html>
