@@ -6,7 +6,6 @@ const email = document.getElementById("email");
 const tel = document.getElementById("tel");
 const sede = document.querySelector(".select");
 const consult = document.getElementById("consult");
-const warnings = document.getElementById("warnings");
 
 // Armo la función que se va a ejecutar cuando asigne un evento
 function validateForm() {
@@ -19,7 +18,7 @@ function validateForm() {
     sede.value === "Elige tu sede" ||
     consult.value === ""
   ) {
-    warnings.innerHTML = "Por favor, complete todos los campos";
+    alert ("Por favor complete todos los campos");
     return false;
   }
 }

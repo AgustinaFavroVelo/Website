@@ -65,8 +65,8 @@ body {
   }
 
 .white {
-    background-color: skyblue ;
-    color: rgb(6, 12, 87);
+    background-color: #882020; 
+    color:#fff9f9;  
 }
 .dark{
     background-color: #222222 ;
