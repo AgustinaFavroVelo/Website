@@ -35,6 +35,11 @@
 #dark-mode-button:hover {
     background-color: #7a7777;
 }
+
+.logo {
+    width: 15%;
+    height: 15%;
+}
 #idfooter {
     background-color:  rgb(56, 54, 54);
     color: #fff;
